@@ -1,12 +1,13 @@
+import Header from './Header'
 
 import './App.css'
 
 function App() {
 
   return (
-    <>
-    Nothing interesting...yet
-    </>
+    <div className='main-container'>
+      <Header></Header>
+    </div>
   )
 }
 

@@ -1,6 +1,14 @@
 /* This CSS reset is taken from https://www.joshwcomeau.com/css/custom-css-reset/ */
-
+/* With my own styles ofc */
 /* 1. Use a more-intuitive box-sizing model */
+:root {
+  --bg-dark: #323027;
+  --dim-yellow-dark: #d79921;
+  --yellow-dark: #fabd2f;
+  --foreground0-dark: #fbf1c7; 
+  --foreground1-dark: #ebdbb2;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -22,6 +30,7 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-dark);
 }
 
 /* 6. Improve media defaults */

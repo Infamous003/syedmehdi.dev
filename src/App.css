@@ -1,0 +1,46 @@
+.main-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--foreground0-dark);
+    color: var(--foreground0-dark);
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    list-style-type: none;
+    /* display: inline-block; */
+    /* margin-right: 1rem; */
+    padding: none;
+    /* border: 1px solid white; */
+}
+
+li:hover {
+    color: var(--foreground1-dark);
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.my-name {
+    font-size: 1.5rem;
+}
