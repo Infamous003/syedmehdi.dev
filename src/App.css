@@ -3,10 +3,7 @@
     margin: 0 auto;
     padding: 1rem;
     box-sizing: border-box;
-    /* border: 1px solid black; */
-
     font-family: 'Work Sans', sans-serif;
-
 }
 
 header {
@@ -17,20 +14,17 @@ header {
     color: var(--foreground0-dark);
 }
 
-ul {
+nav > ul {
     display: flex;
     gap: 1rem;
 }
 
 li {
     list-style-type: none;
-    /* display: inline-block; */
-    /* margin-right: 1rem; */
     padding: none;
-    /* border: 1px solid white; */
 }
 
-li:hover {
+nav > ul > li:hover {
     color: var(--foreground1-dark);
 }
 
@@ -43,4 +37,37 @@ a {
 
 .my-name {
     font-size: 1.5rem;
+}
+
+.about-section {
+    padding: 2rem 0;
+}
+
+.greetings {
+    font-size: 2rem;
+}
+
+.about-subtitle {
+    font-size: 1.2rem;
+}
+
+.about-subtitle ~  p {
+    margin-bottom: 0.2rem;
+    /* border: 1px solid white; */
+}
+
+.links:hover {
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+    /* display: inline-block; */
+}
+
+.socials-container {
+    margin: 0;
+    padding: 0;
+}
+
+.socials-container > li{
+    padding: 0;
+    margin: 0;
 }
