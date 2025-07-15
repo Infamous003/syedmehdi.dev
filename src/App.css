@@ -38,7 +38,7 @@ a {
     font-size: 1.25rem;
 }
 
-.about-section {
+.about-section, .projects-container {
     padding: 2rem 0;
 }
 
@@ -78,4 +78,26 @@ a {
 
 .socials-link:active {
     text-decoration: underline;
+}
+
+.card{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--foreground0-dark);
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: scale 0.1s;
+}
+
+.card:hover {
+    scale: 1.01;
+}
+
+.project-title {
+    color: var(--blue-dark);
+    display: inline-block;
+    margin-bottom: 0.25rem;
+}
+
+.project-date {
+    font-size: 14px;
 }

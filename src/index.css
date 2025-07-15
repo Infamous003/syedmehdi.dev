@@ -7,6 +7,8 @@
   --yellow-dark: #fabd2f;
   --foreground0-dark: #fbf1c7; 
   --foreground1-dark: #ebdbb2;
+  --blue-dark: #83a598;
+  --dim-blue-dark: #458588;
 }
 
 *, *::before, *::after {

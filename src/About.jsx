@@ -11,9 +11,9 @@ export default function About() {
 
             <p>You can find me on:</p>
             <ul className="socials-container">
-                <li>&gt;<a href="https://github.com/Infamous003" className="socials-link">GitHub</a></li>
-                <li>&gt;<a href="#" className="socials-link">Twitter</a></li>
-                <li>&gt;<a href="#" className="socials-link">LinkedIn</a></li>
+                <li>&gt; <a href="https://github.com/Infamous003" className="socials-link">GitHub</a></li>
+                <li>&gt; <a href="#" className="socials-link">Twitter</a></li>
+                <li>&gt; <a href="#" className="socials-link">LinkedIn</a></li>
             </ul>
             <br />
         </div>
