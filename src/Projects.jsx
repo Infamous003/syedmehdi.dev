@@ -15,8 +15,16 @@ export default function Projects() {
             "description": "A FastAPI based back-end for an E-commerce platform",
             "date": "Jun 2025",
             "link": "https://github.com/Infamous003/E-Commerce-App"
-        },{
+        },
+        {
             "id": 3,
+            "title": "MaBlog",
+            "description": "A fullstack Django project for blogging, where users can post blogs, register, filter posts, etc",
+            "date": "April 2025",
+            "link": "https://github.com/Infamous003/MaBlog"
+        },
+        {
+            "id": 4,
             "title": "React front-end",
             "description": "React based front-end for my Blog-API",
             "date": "Jul 2025",
