@@ -1,8 +1,8 @@
 export default function About() {
     return(
         <div className="about-section">
-            <h1 className="greetings">Hey there! Syed here,</h1>
-            <p className="about-subtitle"><b>I'm a recent graduate and a backend developer in the making.</b></p>
+            <h1 className="greetings">Hey there! I'm Syed,</h1>
+            <p className="about-subtitle"><b>A recent graduate and a backend developer.</b></p>
             <br />
             <p>I mostly use <b>Python</b> with <b>FastAPI</b> and <b>PostgreSQL</b> for back-end and <b>JavaScript</b> with <b>React</b> for the font-end.</p>
             <br />
