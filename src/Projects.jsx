@@ -18,18 +18,19 @@ export default function Projects() {
         },
         {
             "id": 3,
-            "title": "MaBlog",
-            "description": "A fullstack Django project for blogging, where users can post blogs, register, filter posts, etc",
-            "date": "April 2025",
-            "link": "https://github.com/Infamous003/MaBlog"
-        },
-        {
-            "id": 4,
             "title": "React front-end",
             "description": "React based front-end for my Blog-API",
             "date": "Jul 2025",
             "link": "https://github.com/Infamous003/blog-api-frontend"
         },
+        {
+            "id": 4,
+            "title": "MaBlog",
+            "description": "A fullstack Django project for blogging, where users can post blogs, register, filter posts, etc",
+            "date": "April 2025",
+            "link": "https://github.com/Infamous003/MaBlog"
+        },
+        
     ]
     return (
         <div className="projects-container">
