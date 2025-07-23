@@ -5,8 +5,7 @@ export default function About() {
             <p className="about-subtitle"><b>A recent graduate and a backend developer.</b></p>
             <br />
             <p>I mostly use <b>Python</b> with <b>FastAPI</b> and <b>PostgreSQL</b> for back-end and <b>JavaScript</b> with <b>React</b> for the font-end.</p>
-            <br />
-            <p>Nowadays, I spend time learning <b>Go</b>. Wh bored of that, I love playing anger inducing games like <b>Sekiro</b> and <b>Dark Souls 3</b></p>
+            <p>Nowadays, I spend time learning <b>Go</b>. When bored of that, I love playing anger inducing games like <b>Sekiro</b> and <b>Dark Souls 3</b></p>
             <br />
 
             <p>You can find me on:</p>
